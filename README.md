@@ -12,6 +12,8 @@ In order to create a game, you need to create many objects, and hold a lot of da
 The main script in this package is [CSVIO.cs](./CSVIOTestProject/Assets/Scripts/CSVIO.cs) which defines the classes CSVIO and CompObj (short for Composite Object).
 Simply put, a CompObj is an Object created from specified properties of a simpler nature (ex. strings, ints, booleans and smaller CompObjs). No matter how complicated the Object, once defined, this project can find a way to non-destructively store all the data that comprises the object. This leaves the user able to modify and use the object to their hearts content.
 
+For more information, please read the documentation within the code. Provided alongside it in the [Scripts](./CSVIOTestProject/Assets/Scripts) folder, you will find tests and examples. In the [Resources](./CSVIOTestProject/Assets/Resources) folder is the CSV that I created for testing purposes.
+
 #### What's next?
  
  -> Currently, the basic objects with which to build Composite objects is limited to strings, ints and bools. In the future, I would like this to include more predefined classes such as Images.
