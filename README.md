@@ -18,6 +18,6 @@ For more information, please read the documentation within the code. Provided al
  
  -> Currently, the basic objects with which to build Composite objects is limited to strings, ints and bools. In the future, I would like this to include more predefined classes such as Images.
  
- -> The use of System.Reflection may pose a problem when dealing with large amounts of data, like location maps and other big multidimensional arrays. While this works well during the development of the game, it may become better to have a FastOutput() function which does not need to use System.Reflection once the developement of the game is complete. The FastOutput option is still on the table for the future.
+ -> The use of System.Reflection may pose a problem when dealing with large amounts of data, like location maps and other big multidimensional arrays. While this project certainly helps during the development of the game, it may become better to have a FastOutput() function which does not need to use System.Reflection once the developement of the game is complete. The FastOutput() option is still on the table for the future.
 
 
