@@ -1,0 +1,11 @@
+ID,name,giver,description,status,prerequisite,rewardval
+0,Tutorial,Frank,complete the tutorial,0,,500
+1,Helping Hand,Johnny,help Johnny in the kitchen,0,0,500
+2,Shopping with Johnny,Johnny,help Johnny go Shopping,0,1,500
+3,Buy Lettuce,Johnny,,0,2,0
+4,Buy Tomatoes,Johnny,Meet Frank by the Tomatoes,0,2,0
+5,Get bag for Frank,Frank,Frank said he'd move away from the tomatoes if you get him a bag,0,4,0
+6,Go Pay,Johnny,Johnny gave you some cash so go pay for the groceries,0,3$5,1000
+7,,,,,,
+8,,,,,,
+9,,,,,,
