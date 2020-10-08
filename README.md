@@ -9,7 +9,9 @@ The main script in this package is [CSVIO.cs](./CSVIOTestProject/Assets/Scripts/
 Simply put, a CompObj is an Object created from specified properties of a simpler nature (ex. strings, ints, booleans and smaller CompObjs). No matter how complicated the Object, once defined, this project can find a way to non-destructively store all the data that comprises the object. This leaves the user able to modify and use the object to their hearts content.
 
 What's next?
+ 
  -> Currently, the basic objects with which to build Composite objects is limited to strings, ints and bools. In the future, I would like this to include more predefined classes such as Images.
+ 
  -> The use of System.Reflection may pose a problem when dealing with large amounts of data, like location maps and other big multidimensional arrays. While this works well during the development of the game, it may become better to have a FastOutput() function which does not need to use System.Reflection once the developement of the game is complete. The FastOutput option is still on the table for the future.
 
 
